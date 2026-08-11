@@ -3,21 +3,13 @@
 </div>
 
 <h3 align="center">
-	Example Flavor for <a href="https://github.com/sxyazi/yazi">Yazi</a>
+	Cipheramus, a flavor for <a href="https://github.com/sxyazi/yazi">Yazi</a>
 </h3>
 
-## Cooking up a new flavor
-
-> [!NOTE]
-> Please remove this section from your README before publishing.
-
-1. [x] Use this template and rename it to `your-flavor-name.yazi`.
-2. [ ] Copy the **parts you need to customize** from the default [theme-dark.toml][theme-dark] or [theme-light.toml][theme-light] as `./flavor.toml`, and change them to meet your preferences.
-3. [ ] Find a `.tmTheme` file on GitHub that matches the color of your flavor, copy it and its license file as `./tmtheme.xml`, and `LICENSE-tmtheme`.
-4. [ ] Modify the content and preview image in the README to fit your flavor.
-
-[theme-dark]: https://github.com/sxyazi/yazi/blob/main/yazi-config/preset/theme-dark.toml
-[theme-light]: https://github.com/sxyazi/yazi/blob/main/yazi-config/preset/theme-light.toml
+<p align="center">
+	A dark, red-accented flavor ported from my <a href="https://github.com/jandedobbeleer/oh-my-posh">oh-my-posh</a> prompt theme,
+	built on the <a href="https://github.com/sdras/night-owl-vscode-theme">Night Owl</a> palette.
+</p>
 
 ## 👀 Preview
 
@@ -25,25 +17,17 @@
 
 ## 🎨 Installation
 
-<!-- Please replace "username/example" with your repository name. -->
-
 ```sh
-ya pkg add username/example
+ya pkg add IbnSaad2910/cipheramus
 ```
 
 ## ⚙️ Usage
-
-<!--
-Please replace "example" with your flavor name.
-
-If your flavor uses a light color scheme, use "light" instead of "dark" wherever it appears below.
--->
 
 To set it as your dark flavor, change the content of your `theme.toml` to:
 
 ```toml
 [flavor]
-dark = "example"
+dark = "cipheramus"
 ```
 
 Make sure your `theme.toml` doesn't contain anything other than `[flavor]`, unless you want to override certain styles of this flavor.
